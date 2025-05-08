@@ -1,0 +1,15 @@
+---
+layout: default
+#title: "web"
+category: web
+permalink: /categories/web/
+nav_exclude: true
+---
+
+<h1>{{ page.category }}</h1>
+<ul>
+  {% assign posts = site.categories[page.category] %}
+  {% for post in posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
