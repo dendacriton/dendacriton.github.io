@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Main One
+title: Dendacriton
 ---
 This is my small blog. And i will become ~~hockage~~ better.
 
