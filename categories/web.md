@@ -13,3 +13,4 @@ nav_exclude: true
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+<a href="/">Back to Home</a>
