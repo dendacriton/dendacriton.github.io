@@ -12,5 +12,5 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v4
       - name: trivy
-      - uses: aquasecurity/trivy-action@master
+        uses: aquasecurity/trivy-action@master
 
