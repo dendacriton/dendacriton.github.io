@@ -1,0 +1,16 @@
+name: Trivy Scan
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trivy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+      - name: trivy
+      - uses: aquasecurity/trivy-action@master
+
